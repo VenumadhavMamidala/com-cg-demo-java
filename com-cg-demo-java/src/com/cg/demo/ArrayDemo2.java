@@ -20,7 +20,7 @@ public class ArrayDemo2 {
 			System.out.println("Please enter elements:");
 			arr[i] = sc.nextInt();
 		}
-
+// venu
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
