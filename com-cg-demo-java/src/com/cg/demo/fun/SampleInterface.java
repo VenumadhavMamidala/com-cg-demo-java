@@ -26,3 +26,10 @@ public abstract interface SampleInterface
 		System.out.println("yupp");
 	}	
 }
+
+
+
+
+
+
+
