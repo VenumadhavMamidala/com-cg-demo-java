@@ -10,7 +10,6 @@ public class ThreadDemo extends Thread {
 				e.printStackTrace();
 			}
 			System.out.println(i);
-
 		}
 	}
 
