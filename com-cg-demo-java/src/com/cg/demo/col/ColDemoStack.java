@@ -11,8 +11,8 @@ public class ColDemoStack {
         stack.push("vaman");
         stack.push("sir");
         stack.push("java");
-        System.out.println(stack);
-        System.out.println(stack.push("sir"));
+        System.out.println(stack.get(2));
+//      System.out.println(stack.push("sir"));
         System.out.println(stack.peek());
         System.out.println(stack);
         stack.pop();
@@ -23,9 +23,11 @@ public class ColDemoStack {
         stack.pop();
         System.out.println(stack);
         stack.pop();
+        System.out.println(stack.empty());
         System.out.println(stack);
         stack.pop();
         System.out.println(stack);
+        System.out.println(stack.empty());
 //      stack.pop();
 //      System.out.println(stack);
     }

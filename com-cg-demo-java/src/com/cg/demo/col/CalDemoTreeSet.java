@@ -6,8 +6,9 @@ public class CalDemoTreeSet {
 	public static void main(String[] args) {
 		TreeSet mySet = new TreeSet();
 		mySet.add(10);
-		mySet.add(20);
 		mySet.add(50);
+		mySet.add(20);
+		
 		System.out.println(mySet);
 		
 		TreeSet<Integer> mySet1 = new TreeSet<>();
@@ -16,7 +17,7 @@ public class CalDemoTreeSet {
 		mySet1.add(3);
 		mySet1.add(4);
 //	    mySet.add(5.5);
-		System.out.println(mySet);
+		System.out.println(mySet1);
 		
 		TreeSet<Double> mySet2 = new TreeSet<>();
 		mySet2.add(99.9);

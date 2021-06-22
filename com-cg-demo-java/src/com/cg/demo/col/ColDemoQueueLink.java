@@ -9,6 +9,7 @@ public class ColDemoQueueLink {
 		myQ.add("venu");
 		myQ.add("vaman");
 		myQ.add("vaman");
+		myQ.add("arif");
 //		myQ.add(null);
 //		myQ.add(null);
 //		myQ.add();

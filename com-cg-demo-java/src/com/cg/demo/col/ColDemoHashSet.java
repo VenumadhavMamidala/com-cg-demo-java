@@ -8,6 +8,10 @@ public class ColDemoHashSet {
 		mySet.add(10);
 		mySet.add("venu");
 		mySet.add(50.24);
+		mySet.add(null);
+//		mySet.add(null);
+//		mySet.add(50.24);
+//		mySet.add(50.24);
 		System.out.println(mySet);
 		
 		HashSet<Integer> mySet1 = new HashSet<>();
@@ -15,8 +19,9 @@ public class ColDemoHashSet {
 		mySet1.add(2);
 		mySet1.add(3);
 		mySet1.add(4);
-//	    mySet.add(5.5);
-		System.out.println(mySet);
+//		mySet1.add(4);
+//	    mySet1.add(5.5);
+		System.out.println(mySet1);
 		
 		HashSet<Double> mySet2 = new HashSet<>();
 		mySet2.add(99.9);

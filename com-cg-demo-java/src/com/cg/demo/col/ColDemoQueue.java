@@ -9,6 +9,7 @@ public class ColDemoQueue {
 		myQ.add("venu");
 		myQ.add("vaman");
 		myQ.add("vaman");
+		myQ.add("arif");
 //		myQ.add(null);
 //		myQ.add(null);
 //		myQ.add();
@@ -41,7 +42,7 @@ public class ColDemoQueue {
 			System.out.println(myQ2.poll());
 		}
 		
-		Queue<String> myQ3 = new PriorityQueue<>();
+		PriorityQueue<String> myQ3 = new PriorityQueue<>();
 		myQ3.add("venu");
 		myQ3.add("vejay");
 		myQ3.add("virat");

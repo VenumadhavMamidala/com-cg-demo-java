@@ -44,6 +44,7 @@ public class ThreadDemo3 extends Thread {
 //		obj.printLoop();
 			
 		obj2.start();
+		System.out.println(obj2.getState());
 		System.out.println(obj.isAlive());
 		System.out.println(obj2.isAlive());
 		System.out.println(obj3.isAlive());

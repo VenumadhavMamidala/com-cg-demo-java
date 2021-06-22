@@ -44,7 +44,12 @@ public class SyncDemo {
 		Table obj = new Table();// only one object
 		MyThread1 t1 = new MyThread1(obj);
 		MyThread2 t2 = new MyThread2(obj);
+		
+//		System.out.println("State"+Thread.currentThread().isAlive());
 		t1.start();
 		t2.start();
+		
+//		t1.start();
+		
 	}
 }

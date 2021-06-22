@@ -2,7 +2,7 @@ package com.cg.demo.multi;
 
 public class ThreadDemo2 implements Runnable {
 
-	public void printLoop() { // bookMovieTickets()
+	public void printLoop() {     // bookMovieTickets()
 		for (int i = 1; i <= 10; i++) {
 			try {
 				Thread.sleep(250);
@@ -25,6 +25,12 @@ public class ThreadDemo2 implements Runnable {
 		Thread obj3 = new Thread(new ThreadDemo2());
 
 		obj.start();
+		try {
+			obj2.wait();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		obj2.start();
 		obj3.start();
 

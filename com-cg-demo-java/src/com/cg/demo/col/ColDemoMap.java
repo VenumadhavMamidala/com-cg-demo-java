@@ -8,10 +8,14 @@ public static void main(String[] args) {
 	h.put(18,"virat");
 	h.put(17,"Abd");
 	h.put(1,"Rahul");
+	h.put(5,"Rahul");
+	h.put(null,"dinesh");
+	h.put(11,"dinesh");
+	h.put(6,"Rahul");
 	h.put(10,"sachin");
 	h.put(7,"Dhoni");
 	System.out.println(h.get(1));
-	System.out.println(h.containsKey(1));
+	System.out.println(h.containsKey(19));
 	System.out.println(h.containsValue("Abd"));
 	System.out.println(h.keySet());
 	System.out.println(h.values());
